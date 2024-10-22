@@ -21,7 +21,7 @@ Jika pengguna tidak memasukkan bilangan apapun dan langsung memasukkan 0, progra
 
 ## Kode Program
 
-python
+```python
 def terbesar_dari_N():
     bilangan_terbesar = None
     
@@ -41,6 +41,7 @@ if hasil is not None:
     print("Bilangan terbesar adalah:", hasil)
 else:
     print("Tidak ada bilangan yang dimasukkan.")
+```
 
 # Hasil screenshot di visualstudiocode
 
@@ -107,7 +108,7 @@ Program ini digunakan untuk menemukan bilangan terbesar dari tiga bilangan yang 
 
 ## Kode Program
 
-python
+```python
 a = int(input('Masukkan bilangan pertama: '))
 b = int(input('Masukkan bilangan kedua: '))
 c = int(input('Masukkan bilangan ketiga: '))
@@ -118,7 +119,7 @@ elif b > a and b > c:
     print(f'Bilangan terbesar adalah {b}')
 else:
     print(f'Bilangan terbesar adalah {c}')
-
+```
 
 # Hasil screenshot di visualstudiocode
 
